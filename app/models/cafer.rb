@@ -1,0 +1,2 @@
+class Cafer < ApplicationRecord
+end

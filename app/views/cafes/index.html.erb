@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/destyle.css">
+  <link rel="stylesheet" href="style/index.css">
+  <title>Nichide Cafe</title>
+</head>
+
+
+
+<body>
+
+  <header>
+    <div>
+      <div>
+      <%= image_tag('fv.jpg', class: "header-img") %>
+      </div>
+      <div class="header-logo">
+        <%= image_tag('logo.svg') %>
+      </div>
+      <div class="header-sentence">
+        あなたの1日に小さな喜びを
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <!--コンセプト-->
+    <div class="concept">
+      <div>
+        <%= image_tag('concept.jpg', class: "concept-img") %>
+      </div>
+      <div class="concept-en">
+        Concept
+      </div>
+      <div class="concept-jp">
+        コンセプト
+      </div>
+      <div class="concept-text">
+        NITCHIDE CAFE
+        は博多駅から徒歩10分のところにあるカフェです。
+        木を基調にした開放的な店内でゆったりとお過ごしいただけます。
+        スタンダードなコーヒーから、こだわりのオリジナルコーヒーをお楽しみください。
+        また氷の量や甘さなどを細かくお客様のお好みの味に変えることができます。
+      </div>
+    </div>
+    <!--ここまでコンセプト-->
+    <!--メニュー-->
+    <div class="menu">
+      <div class="menu-en">
+        Menu
+      </div>
+      <div class="menu-jp">
+        当店のメニュー
+      </div>
+      <div class="menu-text">
+        バリスタが丁寧に抽出したエスプレッソドリンクや、
+        オリジナルコーヒーをご提供しています。
+        一年を通して様々なフレーバーが楽しめます。
+      </div>
+      <div class="menu-main">
+        <div>
+          <%= image_tag('menu1.jpg', class: "blend") %>
+          <div class="blend-en">
+            Blended Coffee
+          </div>
+          <div class="blend-jp">
+            ブレンドコーヒー
+          </div>
+          <div class="blend-price">
+            <div class="blend-small">
+              Small
+            </div>
+            <div class="blend-medium">
+              Medium
+            </div>
+            <div class="blend-large">
+              Large
+            </div>
+            <div class="blend-s-yen">
+              400yen
+            </div>
+            <div class="blend-m-yen">
+              580yen
+            </div>
+            <div class="blend-l-yen">
+              630yen
+            </div>
+          </div>
+        </div>
+        <div>
+          <%= image_tag('menu2.jpg', class: "cap") %>
+          <div class="cap-en">
+            Cappuccino
+          </div>
+          <div class="cap-jp">
+            カプチーノ
+          </div>
+          <div class="cap-price">
+            <div class="cap-small">
+              Small
+            </div>
+            <div class="cap-medium">
+              Medium
+            </div>
+            <div class="cap-large">
+              Large
+            </div>
+            <div class="cap-s-yen">
+              400yen
+            </div>
+            <div class="cap-m-yen">
+              580yen
+            </div>
+            <div class="cap-l-yen">
+              630yen
+            </div>
+          </div>
+          <div>
+            <%= image_tag('menu3.jpg', class: "cafe") %>
+            <div class="cafe-en">
+              Cafe Latte
+            </div>
+            <div class="cafe-jp">
+              カフェラテ
+            </div>
+            <div class="cafe-price">
+              <div class="cafe-small">
+                Small
+              </div>
+              <div class="cafe-medium">
+                Medium
+              </div>
+              <div class="cafe-large">
+                Large
+              </div>
+              <div class="cafe-s-yen">
+                400yen
+              </div>
+              <div class="cafe-m-yen">
+                580yen
+              </div>
+              <div class="cafe-l-yen">
+                630yen
+              </div>
+            </div>
+          </div>
+          <div>
+            <%= image_tag('menu4.jpg', class: "fra") %>
+            <div class="fra-en">
+              Frappuccino
+            </div>
+            <div class="fra-jp">
+              フラペチーノ
+            </div>
+            <div class="fra-price">
+              <div class="fra-small">
+                Small
+              </div>
+              <div class="fra-medium">
+                Medium
+              </div>
+              <div class="fra-large">
+                Large
+              </div>
+              <div class="fra-s-yen">
+                400yen
+              </div>
+              <div class="fra-m-yen">
+                580yen
+              </div>
+              <div class="fra-l-yen">
+                630yen
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--ここまでメニュー-->
+    <!--カスタマイズ-->
+    <div class="customize">
+      <div class="customize-title">
+        Customize
+      </div>
+      <div class="customize-title-line"></div>
+      <div class="customize-sweet">
+        甘さ
+      </div>
+      <div class="customize-sweet-line"></div>
+      <%= image_tag('sweetness.svg', class: "sweet") %>
+      <div class="customize-ice">
+        氷
+      </div>
+      <div class="customize-ice-line"></div>
+      <%= image_tag('ice.svg', class: "ice") %>
+      <div class="customize-topping">
+        トッピング
+      </div>
+      <div class="customize-topping-line"></div>
+      <div class="whip-cream">
+        ・ホイップクリーム
+      </div>
+      <div class="ice-cream">
+        ・アイスクリーム
+      </div>
+      <div class="marsh">
+        ・マシュマロ
+      </div>
+    </div>
+    <!--ここまでカスタマイズ-->
+    <!--店舗へのアクセス-->
+    <div class="access">
+      <div class="access-en">Access</div>
+      <div class="access-ja">店舗へのアクセス</div>
+      <%= image_tag('map.svg', class: "map") %>
+      <div class="address">
+        <div class="address-ja"> 住所</div>
+        <div class="post-number">〒812-0011</div>
+        <div class="address-de">福岡県福岡市博多区博多駅前4丁目18-6</div>
+        <div class="business-hours">営業時間</div>
+        <div class="business-hours-week">平日 8:00〜19:00</div>
+        <div class="business-hours-end">土日祝 10:00〜18:00</div>
+      </div>
+    </div>
+    <!--ここまで店舗へのアクセス-->
+    <!--ニュース-->
+    <div class="news">
+      <div class="news-en">News</div>
+      <div class="news-ja">お知らせ</div>
+
+      <div class="news-line1">
+        <%= image_tag('news1.jpg', class: "news-one") %>
+        <div class="day-1">2020.06.01</div>
+        <div class="genre-1">メディア・出演</div>
+        <div class="detail-1">雑誌「カフェスタイル」に掲載されました。</div>
+        <a href="#" class="watch-1">詳細を見る</a>
+      </div>
+
+      <div class="news-line2">
+        <%= image_tag('news2.jpg', class: "news-two") %>
+        <div class="day-2">2020.07.02</div>
+        <div class="genre-2">商品情報</div>
+        <div class="detail-2">新商品「フラペチーノ」のご紹介</div>
+        <a href="#" class="watch-2">詳細を見る</a>
+      </div>
+
+      <div class="news-line3">
+        <%= image_tag('news3.jpg', class: "news-three") %>
+        <div class="day-3">2020.07.14</div>
+        <div class="genre-3">休業</div>
+        <div class="detail-3">自粛休業のお知らせ</div>
+        <a href="#" class="watch-3">詳細を見る</a>
+      </div>
+
+      <div class="news-line4"></div>
+    </div>
+    <!--ここまでニュース-->
+    <!--フッター-->
+    <footer>
+      <div class="footer-img">
+        <div class="footer-logo">
+          <%= image_tag('logo.svg') %>
+        </div>
+        <a href="#" class="footer-concept">Concept</a>
+        <a href="#" class="footer-menu">Menu</a>
+        <a href="#" class="footer-access">Access</a>
+        <a href="#" class="footer-news">News</a>
+        <div class="footer-c">©️2020 Nichide Cafe</div>
+      </div>
+    </footer>
+    <!--ここまでフッター-->
+  </div>
+</body>
+
+</html>
