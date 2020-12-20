@@ -10,5 +10,10 @@
 ## adobe XD
 ## vs code
 
+# 各ソースコード場所
+## HTML
+app/views/cafes/index.html.erb
+## CSS
+app/assets/stylesheets/index.css
 # サイトURL
 https://cafe-31056.herokuapp.com/
